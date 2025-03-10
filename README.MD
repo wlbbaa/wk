@@ -26,12 +26,16 @@ AutoCourseDownloader 是一个 Python 工具，支持自动登录网课平台、
 
 1. 克隆项目
 
+```
 git clone https://github.com/你的用户名/AutoCourseDownloader.git
 cd AutoCourseDownloader
+```
 
 2. 安装依赖
 
+```
 pip install -r requirements.txt
+```
 
 此外，你需要安装 ffmpeg（用于处理 M3U8 视频格式）：
 
@@ -39,10 +43,11 @@ Windows: 下载 ffmpeg 并配置环境变量。
 
 Linux/macOS:
 
+```
 sudo apt install ffmpeg  # Debian/Ubuntu
 brew install ffmpeg      # macOS
 
-
+```
 
 ---
 
@@ -52,10 +57,12 @@ brew install ffmpeg      # macOS
 
 在 config.py 或 main.py 内修改以下信息：
 
+```
 COURSE_URL = "https://example.com/course/123"  # 课程链接
 USERNAME = "你的账号"
 PASSWORD = "你的密码"
 DOWNLOAD_PATH = "videos"  # 下载目录
+```
 
 2. 运行爬取脚本
 
@@ -78,6 +85,7 @@ python main.py
 
 📜 代码结构
 
+```
 AutoCourseDownloader/
 │── main.py             # 主程序
 │── config.py           # 账号配置
@@ -85,6 +93,7 @@ AutoCourseDownloader/
 │── README.md           # 说明文档
 └── videos/             # 下载的视频存放目录
 
+```
 
 ---
 
