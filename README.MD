@@ -66,7 +66,9 @@ DOWNLOAD_PATH = "videos"  # 下载目录
 
 2. 运行爬取脚本
 
+```
 python main.py
+```
 
 程序会自动：
 
